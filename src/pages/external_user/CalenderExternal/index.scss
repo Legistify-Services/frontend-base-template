@@ -1,0 +1,30 @@
+.external_calendar {
+  .fc-theme-standard .fc-popover {
+    max-height: 250px !important;
+    overflow-y: auto;
+    max-width: 30rem;
+  }
+
+  .app-calendar {
+    overflow: visible !important;
+  }
+
+  .fc-h-event .fc-event-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    &:hover {
+      text-overflow: clip;
+      white-space: normal;
+      word-break: break-all;
+    }
+  }
+}
+
+.filter_btns {
+  height: 46px;
+  border-radius: 10px;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  line-height: 18px !important;
+}

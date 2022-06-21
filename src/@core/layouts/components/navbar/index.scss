@@ -1,0 +1,20 @@
+.gridCol {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 1rem 0.2rem;
+  cursor: pointer;
+  &:hover {
+    background-color: #eff4ff;
+  }
+  &:hover > span {
+    color: #223647;
+  }
+  span {
+    color: #808e99;
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+}
+.navigationDropdown {
+  width: 25rem;
+}
